@@ -2,6 +2,7 @@
     <b-navbar type="is-primary">
         <template #brand>
             <b-navbar-item id="title" tag="router-link" :to="{ path: '/' }">
+                <b-icon icon="book-cross"></b-icon>
                 <h1> Verbum </h1>
             </b-navbar-item>
         </template>
