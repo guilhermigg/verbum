@@ -1,12 +1,13 @@
 <template>
   <section class="section">
-    <h1> Hello World </h1>
+    <Tabs></Tabs>
   </section>
 </template>
 
 <script>
+import Tabs from '@/components/Tabs.vue'
 
 export default {
-  name: 'IndexPage',
+  components: {Tabs},
 }
 </script>
